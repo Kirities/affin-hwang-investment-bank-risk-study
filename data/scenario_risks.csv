@@ -1,0 +1,8 @@
+risk,probability_score,impact_score,source_id,source_pages,evidence_status
+Market,4,5,SOURCE-REPORT,12;22,illustrative_unvalidated_source_assumption
+Compliance,4,4,SOURCE-REPORT,12;22,illustrative_unvalidated_source_assumption
+Credit,3,4,SOURCE-REPORT,12;22,illustrative_unvalidated_source_assumption
+Technology,4,2,SOURCE-REPORT,13;22,illustrative_unvalidated_source_assumption
+Operational,3,2,SOURCE-REPORT,12;22,illustrative_unvalidated_source_assumption
+Liquidity,2,3,SOURCE-REPORT,13;22,illustrative_unvalidated_source_assumption
+Strategic,3,2,SOURCE-REPORT,13;22,illustrative_unvalidated_source_assumption

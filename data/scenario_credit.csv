@@ -1,0 +1,5 @@
+counterparty,gross_rm_million,net_rm_million,pd_pct,lgd_pct,original_ead_label_rm_million,source_id,source_pdf_page,evidence_status
+Corporate,420,340,2.8,45,11.8,SOURCE-REPORT,19,illustrative_unvalidated_source_assumption
+Financial institutions,285,285,1.5,35,4.3,SOURCE-REPORT,19,illustrative_unvalidated_source_assumption
+Retail and HNWI,165,165,3.2,40,5.3,SOURCE-REPORT,19,illustrative_unvalidated_source_assumption
+Sovereign and GLC,125,125,0.5,20,0.6,SOURCE-REPORT,19,illustrative_unvalidated_source_assumption

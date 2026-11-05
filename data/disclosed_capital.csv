@@ -1,0 +1,5 @@
+entity,year,cet1_rm_thousand,total_capital_rm_thousand,credit_rwa_rm_thousand,market_rwa_rm_thousand,operational_rwa_rm_thousand,total_rwa_rm_thousand,reported_cet1_pct,reported_total_capital_pct,source_id,source_pdf_page,evidence_status
+AHIBB consolidated group,2024,1080014,1100558,1643511,832279,586099,3061889,35.273,35.944,P3-2025,9,verified_public_disclosure
+AHIBB consolidated group,2025,1083215,1106450,1858823,550666,473450,2882939,37.573,38.379,P3-2025,9,verified_public_disclosure
+AHIBB standalone bank,2024,1077735,1098244,1640688,832279,463531,2936498,36.701,37.400,P3-2025,9,verified_public_disclosure
+AHIBB standalone bank,2025,1081746,1104958,1856994,550666,471398,2879058,37.573,38.379,P3-2025,9,verified_public_disclosure
