@@ -1,4 +1,4 @@
-# References and attribution
+# References and source provenance
 
 [中文](../zh-CN/references.md)
 
@@ -8,9 +8,9 @@
 2. **Bank Negara Malaysia.** 6 May 2024. *Bank Negara Malaysia imposes Administrative Monetary Penalty on 14 Financial Institutions for non-compliances with the Financial Services Act 2013 and Islamic Financial Services Act 2013*. [Official announcement](https://www.bnm.gov.my/-/ea-strpt). The penalty was imposed on 30 January 2024; Table 1 lists Affin Bank Berhad at RM120,000. This is a separate legal entity from AHIBB. Accessed 5 November 2026.
 3. **International Organization for Standardization.** 2018. *ISO 31000:2018 — Risk management — Guidelines*. [Official overview](https://www.iso.org/standard/65694.html). Used only for framework context; the paid standard text was not reviewed, and no exact scoring thresholds or certification claims are inferred. Accessed 5 November 2026.
 
-## Source report and authorship
+## Source record
 
-The supplied source is *Investment Banking Assignment.pdf*, a 38-page report on AHIBB. The source credits **Zhou Yuchen, Wu Yuchen, Zhou Shanzhu, Zhao Hongce, and Cao Zijin**. Names are retained as source attribution; no contribution roles, affiliations, author order beyond the supplied listing, or sole ownership are inferred. The formal research report in this repository is an editorially restructured and computationally extended version prepared from that source. New extensions include symmetric ratio attribution, the entity comparison, reverse-stress grids, ordinal sensitivity, and credit parameter sensitivity.
+The input document is *Investment Banking Assignment.pdf*, a 38-page report on AHIBB. The study develops its analytical material through an entity-consistent comparison, symmetric ratio attribution, sequential-path robustness, reverse-stress and capital-frontier calculations, ordinal sensitivity, and credit parameter sensitivity. Public disclosure inputs and illustrative assumptions retain separate evidence labels.
 
 Source SHA-256:
 
@@ -22,6 +22,6 @@ The complete original, its extracted text, and inspection images are retained un
 
 The source bibliography contains additional titles and institutional references whose exact publication identity or quantitative claim support was not verified in this project. They are not silently promoted into the verified bibliography. In particular, numerical AI productivity gains, market shares, alleged 2026 enforcement details, and precise industry thresholds are excluded from established findings. General expected-loss arithmetic is derived explicitly in the report; no claim of full MFRS 9 implementation is made.
 
-## Rights and status
+## Research status
 
-No peer review, journal publication, institutional endorsement, funding, or implemented bank program is claimed. Copyright and other rights in source contributions and third-party materials remain with the relevant rights holders. This repository does not add a blanket open-source or content license. Public availability alone does not establish unrestricted reuse rights.
+The study is a descriptive financial analysis with conditional extensions. Internal incident calibration and operational implementation are outside the available evidence. External documents retain their original reuse terms and are linked rather than republished.

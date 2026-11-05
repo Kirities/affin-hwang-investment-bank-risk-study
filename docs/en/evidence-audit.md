@@ -2,7 +2,7 @@
 
 [中文](../zh-CN/evidence-audit.md)
 
-Audit date: 5 November 2026. Source page numbers below are one-based pages of the supplied PDF. The purpose is to preserve the contribution while correcting material interpretations and making evidence boundaries inspectable.
+Audit date: 5 November 2026. Source page numbers below are one-based pages of the supplied PDF. The audit corrects material interpretations and makes evidence boundaries inspectable.
 
 | ID | Source location and issue | Treatment in the research report |
 |---|---|---|
@@ -31,4 +31,4 @@ The ratio decomposition, entity comparison, reverse-stress grid, and parameter p
 
 ## Publication boundary
 
-The source report is retained locally with a SHA-256 fingerprint documented in [references](references.md). Public files exclude direct identifiers, signatures, similarity-check pages, marking forms, and duplicate financial screenshots. Source contributors are credited without inventing roles or affiliations. No unverified allegations are recast as confirmed institutional misconduct.
+The source report is retained locally with a SHA-256 fingerprint documented in [references](references.md). Public files exclude direct identifiers, signatures, similarity-check pages, marking forms, and duplicate financial screenshots. No unverified allegations are recast as confirmed institutional misconduct.

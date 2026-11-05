@@ -1,0 +1,19 @@
+entity,reference_cet1_pct,rwa_multiplier,loss_capacity_rm_million,evidence_status
+AHIBB consolidated group,7,1,881.40927,conditional_scenario_not_forecast
+AHIBB consolidated group,7,1.25,830.9578375,conditional_scenario_not_forecast
+AHIBB consolidated group,7,1.5,780.506405,conditional_scenario_not_forecast
+AHIBB consolidated group,20,1,506.62719999999996,conditional_scenario_not_forecast
+AHIBB consolidated group,20,1.25,362.48025,conditional_scenario_not_forecast
+AHIBB consolidated group,20,1.5,218.33329999999992,conditional_scenario_not_forecast
+AHIBB consolidated group,30,1,218.33330000000004,conditional_scenario_not_forecast
+AHIBB consolidated group,30,1.25,2.112875,conditional_scenario_not_forecast
+AHIBB consolidated group,30,1.5,-214.1075499999998,conditional_scenario_not_forecast
+AHIBB standalone bank,7,1,880.2119399999999,conditional_scenario_not_forecast
+AHIBB standalone bank,7,1.25,829.8284249999999,conditional_scenario_not_forecast
+AHIBB standalone bank,7,1.5,779.4449099999999,conditional_scenario_not_forecast
+AHIBB standalone bank,20,1,505.93440000000004,conditional_scenario_not_forecast
+AHIBB standalone bank,20,1.25,361.9815,conditional_scenario_not_forecast
+AHIBB standalone bank,20,1.5,218.0286000000001,conditional_scenario_not_forecast
+AHIBB standalone bank,30,1,218.02859999999998,conditional_scenario_not_forecast
+AHIBB standalone bank,30,1.25,2.09925,conditional_scenario_not_forecast
+AHIBB standalone bank,30,1.5,-213.8301000000001,conditional_scenario_not_forecast

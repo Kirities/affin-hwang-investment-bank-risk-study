@@ -3,6 +3,18 @@
     {
       "capital_contribution_pp": 0.1077879163092384,
       "rwa_contribution_pp": 2.1927004596963626,
+      "sequential_paths": [
+        {
+          "path": "capital_then_rwa",
+          "capital_contribution_pp": 0.10454330643599426,
+          "rwa_contribution_pp": 2.1959450695696066
+        },
+        {
+          "path": "rwa_then_capital",
+          "capital_contribution_pp": 0.11103252618248254,
+          "rwa_contribution_pp": 2.1894558498231182
+        }
+      ],
       "total_change_pp": 2.3004883760055996,
       "entity": "AHIBB consolidated group",
       "total_rwa_change_pct": -5.844431329809796,
@@ -12,6 +24,18 @@
     {
       "capital_contribution_pp": 0.13795383720621937,
       "rwa_contribution_pp": 0.7335905014559684,
+      "sequential_paths": [
+        {
+          "path": "capital_then_rwa",
+          "capital_contribution_pp": 0.1365912730061454,
+          "rwa_contribution_pp": 0.7349530656560422
+        },
+        {
+          "path": "rwa_then_capital",
+          "capital_contribution_pp": 0.1393164014062933,
+          "rwa_contribution_pp": 0.7322279372558944
+        }
+      ],
       "total_change_pp": 0.871544338662189,
       "entity": "AHIBB standalone bank",
       "total_rwa_change_pct": -1.9560714837878357,
@@ -147,6 +171,134 @@
       "evidence_status": "conditional_scenario_not_forecast"
     }
   ],
+  "capital_frontier": [
+    {
+      "entity": "AHIBB consolidated group",
+      "reference_cet1_pct": 7,
+      "assumed_loss_rm_million": 0,
+      "maximum_rwa_multiplier": 5.3676127035639665,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB consolidated group",
+      "reference_cet1_pct": 7,
+      "assumed_loss_rm_million": 100,
+      "maximum_rwa_multiplier": 4.872086635002881,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB consolidated group",
+      "reference_cet1_pct": 7,
+      "assumed_loss_rm_million": 200,
+      "maximum_rwa_multiplier": 4.376560566441795,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB consolidated group",
+      "reference_cet1_pct": 20,
+      "assumed_loss_rm_million": 0,
+      "maximum_rwa_multiplier": 1.8786644462473883,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB consolidated group",
+      "reference_cet1_pct": 20,
+      "assumed_loss_rm_million": 100,
+      "maximum_rwa_multiplier": 1.7052303222510083,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB consolidated group",
+      "reference_cet1_pct": 20,
+      "assumed_loss_rm_million": 200,
+      "maximum_rwa_multiplier": 1.5317961982546282,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB consolidated group",
+      "reference_cet1_pct": 30,
+      "assumed_loss_rm_million": 0,
+      "maximum_rwa_multiplier": 1.2524429641649257,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB consolidated group",
+      "reference_cet1_pct": 30,
+      "assumed_loss_rm_million": 100,
+      "maximum_rwa_multiplier": 1.1368202148340056,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB consolidated group",
+      "reference_cet1_pct": 30,
+      "assumed_loss_rm_million": 200,
+      "maximum_rwa_multiplier": 1.0211974655030855,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB standalone bank",
+      "reference_cet1_pct": 7,
+      "assumed_loss_rm_million": 0,
+      "maximum_rwa_multiplier": 5.367559210587033,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB standalone bank",
+      "reference_cet1_pct": 7,
+      "assumed_loss_rm_million": 100,
+      "maximum_rwa_multiplier": 4.871365167753778,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB standalone bank",
+      "reference_cet1_pct": 7,
+      "assumed_loss_rm_million": 200,
+      "maximum_rwa_multiplier": 4.375171124920522,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB standalone bank",
+      "reference_cet1_pct": 20,
+      "assumed_loss_rm_million": 0,
+      "maximum_rwa_multiplier": 1.8786457237054621,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB standalone bank",
+      "reference_cet1_pct": 20,
+      "assumed_loss_rm_million": 100,
+      "maximum_rwa_multiplier": 1.7049778087138225,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB standalone bank",
+      "reference_cet1_pct": 20,
+      "assumed_loss_rm_million": 200,
+      "maximum_rwa_multiplier": 1.5313098937221827,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB standalone bank",
+      "reference_cet1_pct": 30,
+      "assumed_loss_rm_million": 0,
+      "maximum_rwa_multiplier": 1.2524304824703079,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB standalone bank",
+      "reference_cet1_pct": 30,
+      "assumed_loss_rm_million": 100,
+      "maximum_rwa_multiplier": 1.1366518724758816,
+      "evidence_status": "conditional_scenario_not_forecast"
+    },
+    {
+      "entity": "AHIBB standalone bank",
+      "reference_cet1_pct": 30,
+      "assumed_loss_rm_million": 200,
+      "maximum_rwa_multiplier": 1.0208732624814552,
+      "evidence_status": "conditional_scenario_not_forecast"
+    }
+  ],
   "illustrative_risk_sensitivity": [
     {
       "risk": "Market",
@@ -268,62 +420,74 @@
     {
       "pd_multiplier": 0.5,
       "lgd_shift_pp": -10,
-      "el_rm_million": 3.4156249999999995
+      "el_rm_million": 3.4156249999999995,
+      "evidence_status": "illustrative_unvalidated_source_assumption"
     },
     {
       "pd_multiplier": 0.5,
       "lgd_shift_pp": 0,
-      "el_rm_million": 4.512624999999999
+      "el_rm_million": 4.512625,
+      "evidence_status": "illustrative_unvalidated_source_assumption"
     },
     {
       "pd_multiplier": 0.5,
       "lgd_shift_pp": 10,
-      "el_rm_million": 5.609624999999999
+      "el_rm_million": 5.609624999999999,
+      "evidence_status": "illustrative_unvalidated_source_assumption"
     },
     {
       "pd_multiplier": 1,
       "lgd_shift_pp": -10,
-      "el_rm_million": 6.831249999999999
+      "el_rm_million": 6.831249999999999,
+      "evidence_status": "illustrative_unvalidated_source_assumption"
     },
     {
       "pd_multiplier": 1,
       "lgd_shift_pp": 0,
-      "el_rm_million": 9.025249999999998
+      "el_rm_million": 9.02525,
+      "evidence_status": "illustrative_unvalidated_source_assumption"
     },
     {
       "pd_multiplier": 1,
       "lgd_shift_pp": 10,
-      "el_rm_million": 11.219249999999999
+      "el_rm_million": 11.219249999999999,
+      "evidence_status": "illustrative_unvalidated_source_assumption"
     },
     {
       "pd_multiplier": 1.5,
       "lgd_shift_pp": -10,
-      "el_rm_million": 10.246875
+      "el_rm_million": 10.246874999999998,
+      "evidence_status": "illustrative_unvalidated_source_assumption"
     },
     {
       "pd_multiplier": 1.5,
       "lgd_shift_pp": 0,
-      "el_rm_million": 13.537875
+      "el_rm_million": 13.537875,
+      "evidence_status": "illustrative_unvalidated_source_assumption"
     },
     {
       "pd_multiplier": 1.5,
       "lgd_shift_pp": 10,
-      "el_rm_million": 16.828875
+      "el_rm_million": 16.828875,
+      "evidence_status": "illustrative_unvalidated_source_assumption"
     },
     {
       "pd_multiplier": 2,
       "lgd_shift_pp": -10,
-      "el_rm_million": 13.662499999999998
+      "el_rm_million": 13.662499999999998,
+      "evidence_status": "illustrative_unvalidated_source_assumption"
     },
     {
       "pd_multiplier": 2,
       "lgd_shift_pp": 0,
-      "el_rm_million": 18.050499999999996
+      "el_rm_million": 18.0505,
+      "evidence_status": "illustrative_unvalidated_source_assumption"
     },
     {
       "pd_multiplier": 2,
       "lgd_shift_pp": 10,
-      "el_rm_million": 22.438499999999998
+      "el_rm_million": 22.438499999999998,
+      "evidence_status": "illustrative_unvalidated_source_assumption"
     }
   ],
   "proposed_budget_rm_million": 26.5,

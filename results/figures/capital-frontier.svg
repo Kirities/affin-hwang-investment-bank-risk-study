@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="640" viewBox="0 0 1100 640" role="img" aria-labelledby="title description">
+<title id="title">Capital frontier: joint loss and RWA expansion</title><desc id="description">Conditional boundary | AHIBB consolidated group, 2025 | no tax benefit</desc>
+<rect width="100%" height="100%" fill="#f7f9fc"/>
+<style>text{font-family:Arial,sans-serif;fill:#14283f} .title{font-size:26px;font-weight:bold} .sub{font-size:15px;fill:#526277} .label{font-size:16px} .small{font-size:14px}</style>
+<text x="45" y="48" class="title">Capital frontier: joint loss and RWA expansion</text>
+<text x="45" y="78" class="sub">Conditional boundary | AHIBB consolidated group, 2025 | no tax benefit</text>
+<path d="M150 490.0H900" stroke="#dce2eb"/>
+<text x="125" y="495.0" text-anchor="end" class="small">-200</text>
+<path d="M150 390.0H900" stroke="#526277"/>
+<text x="125" y="395.0" text-anchor="end" class="small">0</text>
+<path d="M150 290.0H900" stroke="#dce2eb"/>
+<text x="125" y="295.0" text-anchor="end" class="small">200</text>
+<path d="M150 190.0H900" stroke="#dce2eb"/>
+<text x="125" y="195.0" text-anchor="end" class="small">400</text>
+<text x="150" y="540" text-anchor="middle" class="small">1.0</text>
+<text x="300.0000000000001" y="540" text-anchor="middle" class="small">1.1</text>
+<text x="449.99999999999994" y="540" text-anchor="middle" class="small">1.2</text>
+<text x="600.0" y="540" text-anchor="middle" class="small">1.3</text>
+<text x="749.9999999999999" y="540" text-anchor="middle" class="small">1.4</text>
+<text x="900.0" y="540" text-anchor="middle" class="small">1.5</text>
+<text x="150" y="105" class="label">Loss capacity / shortfall (RM million)</text>
+<text x="525" y="570" text-anchor="middle" class="label">RWA multiplier relative to year-end 2025</text>
+<polyline points="150,136.68640000000005 525.0,208.75987500000008 900.0,280.83335000000005" stroke="#1f5a85" stroke-width="3" fill="none" />
+<text x="920" y="285.83335000000005" class="label">20% reference</text>
+<polyline points="150,280.83335 525.0,388.9435625 900.0,497.053775" stroke="#945b13" stroke-width="3" fill="none" stroke-dasharray="10 6"/>
+<text x="920" y="502.053775" class="label">30% reference</text>
+<circle cx="528.6644462473886" cy="390.0" r="6" fill="#945b13"/>
+<text x="542.6644462473886" y="375.0" class="small">Zero-loss boundary: 1.252x RWA</text>
+<text x="45" y="610" class="small">Lines are accounting boundaries, not forecasts. Values below zero indicate a reference-ratio shortfall.</text>
+</svg>

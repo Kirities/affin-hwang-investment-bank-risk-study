@@ -8,7 +8,7 @@ A research report on the relationship between regulatory capital strength, chang
 
 ![RWA composition](results/figures/rwa-composition.svg)
 
-## Findings and contribution
+## Research findings
 
 | Analysis | Result | Evidence status |
 |---|---|---|
@@ -17,15 +17,18 @@ A research report on the relationship between regulatory capital strength, chang
 | Consolidated risk composition | Total RWA −5.84%; credit RWA +13.10% | Computed from public disclosure |
 | Standalone comparison | CET1 improvement +0.872 percentage points; total RWA −1.96% | Computed from disclosed amounts |
 | Reverse stress at a 20% analytical reference | Consolidated loss capacity falls from RM506.6m to RM218.3m when RWA rises by 50% | Conditional scenario, not a forecast |
+| Joint loss–RWA boundary at a 30% analytical reference | After an assumed RM100m loss, consolidated RWA expansion is limited to 13.68% at that reference | Conditional scenario, not a bank limit |
 | Credit sensitivity | RM9.025m gross-basis expected loss; RM8.017m net-basis sensitivity | Illustrative source inputs, not a bank provision |
 
-The contribution is an auditable connection between evidence scope, financial identities, sensitivity analysis, and decision design. It is a single-institution analytical study; it does not estimate causal effects or bank-specific event probabilities.
+The analysis connects evidence scope, financial identities, sensitivity analysis, and decision design through reproducible calculations. It is a single-institution analytical study; it does not estimate causal effects or bank-specific event probabilities.
+
+The denominator-led interpretation holds under both sequential attribution paths. The extended capital frontier shows how loss absorption and RWA expansion draw on the same capacity. See [the report](docs/en/report.md#41-the-joint-lossrwa-frontier) for the equation, signed shortfalls and assumptions.
 
 ## Read the study
 
-- [Research report and methods](docs/en/report.md): business model, entity comparison, capital decomposition, reverse stress, ordinal risk sensitivity, and implementation design.
+- [Research report and methods](docs/en/report.md): business model, entity comparison, capital decomposition and path robustness, reverse stress and capital frontiers, ordinal risk sensitivity, and implementation design.
 - [Evidence audit and material corrections](docs/en/evidence-audit.md): sources, rejected interpretations, and unresolved claims.
-- [References and attribution](docs/en/references.md): verified external sources and source authorship.
+- [References and source provenance](docs/en/references.md): primary sources and traceable input records.
 - [Data dictionary](data/README.md) and [machine-readable results](results/summary.json).
 
 ## Reproduce
@@ -37,7 +40,7 @@ python scripts/analyze.py
 python -m unittest discover -s tests -v
 ```
 
-The first command regenerates `results/summary.json` and three SVG figures. To preserve committed outputs while verifying a new run:
+The first command regenerates `results/summary.json` and four SVG figures and four result CSV tables. To preserve committed outputs while verifying a new run:
 
 ```bash
 python scripts/analyze.py --output local/reproduction
@@ -47,6 +50,6 @@ Checks reconcile RWA components, compare calculated and published ratios, verify
 
 ## Evidence and research status
 
-Public disclosure observations, arithmetic results, illustrative assumptions, and proposed actions are labeled separately throughout. The risk matrix and credit scenarios do not constitute measured internal bank data. The proposed budget is not approved expenditure, and transformation benefits have not been measured. No investment recommendation, regulatory certification, or operational deployment is claimed.
+Public disclosure observations, arithmetic results, illustrative assumptions, and proposed actions are labeled separately throughout. The risk matrix and credit scenarios do not constitute measured internal bank data. The proposed budget is not approved expenditure, and transformation benefits have not been measured. Implementation benefits remain prospective.
 
-The source report is retained locally with its fingerprint. The public repository omits student identifiers, signatures, similarity-check material, grading forms, and duplicate third-party financial-report screenshots. Legitimate source authorship is preserved in [attribution](docs/en/references.md#source-report-and-authorship). No open license is asserted without establishing the rights of all relevant contributors and third-party owners.
+The input record and source-document fingerprint are documented in [source provenance](docs/en/references.md#source-record). Public data are research-relevant derived tables; the original PDF and administrative attachments remain outside the repository.

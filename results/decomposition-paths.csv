@@ -1,0 +1,5 @@
+entity,path,capital_contribution_pp,rwa_contribution_pp,evidence_status
+AHIBB consolidated group,capital_then_rwa,0.10454330643599426,2.1959450695696066,computed_from_public_disclosure
+AHIBB consolidated group,rwa_then_capital,0.11103252618248254,2.1894558498231182,computed_from_public_disclosure
+AHIBB standalone bank,capital_then_rwa,0.1365912730061454,0.7349530656560422,computed_from_public_disclosure
+AHIBB standalone bank,rwa_then_capital,0.1393164014062933,0.7322279372558944,computed_from_public_disclosure
