@@ -1,10 +1,10 @@
 # Capital Resilience and Risk Transformation at Affin Hwang Investment Bank
 
-[����](../zh-CN/report.md) �� [Project overview](../../README.md)
+[中文](../zh-CN/report.md) · [Project overview](../../README.md)
 
 ## Abstract
 
-Capital ratios are informative about regulatory solvency but cannot by themselves establish that an investment bank has reduced every material source of risk. This study examines Affin Hwang Investment Bank Berhad (AHIBB) through an entity-consistent analysis of FY2024�CFY2025 Pillar 3 disclosures. A symmetric decomposition attributes 2.193 percentage points of the consolidated CET1 ratio improvement to the RWA denominator and 0.108 points to the capital numerator. Credit RWA nevertheless increased by 13.10%. A reverse-stress extension shows how loss capacity depends jointly on the reference capital ratio and RWA expansion. Separately labeled risk and credit scenarios demonstrate sensitivity to assumptions and correct an exposure-definition error in the source analysis. The findings support a transformation strategy that integrates capital planning, exposure governance, reporting reliability, and operational resilience without treating unverified efficiency forecasts as established benefits.
+Capital ratios are informative about regulatory solvency but cannot by themselves establish that an investment bank has reduced every material source of risk. This study examines Affin Hwang Investment Bank Berhad (AHIBB) through an entity-consistent analysis of FY2024–FY2025 Pillar 3 disclosures. A symmetric decomposition attributes 2.193 percentage points of the consolidated CET1 ratio improvement to the RWA denominator and 0.108 points to the capital numerator. Credit RWA nevertheless increased by 13.10%. A reverse-stress extension shows how loss capacity depends jointly on the reference capital ratio and RWA expansion. Separately labeled risk and credit scenarios demonstrate sensitivity to assumptions and correct an exposure-definition error in the source analysis. The findings support a transformation strategy that integrates capital planning, exposure governance, reporting reliability, and operational resilience without treating unverified efficiency forecasts as established benefits.
 
 ## 1. Research problem and institutional context
 
@@ -55,13 +55,13 @@ The consolidated interpretation is dominated by denominator contraction. The sta
 | Entity and component | 2024, RM million | 2025, RM million | Change, RM million |
 |---|---:|---:|---:|
 | Group: credit RWA | 1,643.511 | 1,858.823 | +215.312 |
-| Group: market RWA | 832.279 | 550.666 | ?281.613 |
-| Group: operational RWA | 586.099 | 473.450 | ?112.649 |
-| Group: total RWA | 3,061.889 | 2,882.939 | ?178.950 |
+| Group: market RWA | 832.279 | 550.666 | −281.613 |
+| Group: operational RWA | 586.099 | 473.450 | −112.649 |
+| Group: total RWA | 3,061.889 | 2,882.939 | −178.950 |
 | Bank: credit RWA | 1,640.688 | 1,856.994 | +216.306 |
-| Bank: market RWA | 832.279 | 550.666 | ?281.613 |
+| Bank: market RWA | 832.279 | 550.666 | −281.613 |
 | Bank: operational RWA | 463.531 | 471.398 | +7.867 |
-| Bank: total RWA | 2,936.498 | 2,879.058 | ?57.440 |
+| Bank: total RWA | 2,936.498 | 2,879.058 | −57.440 |
 
 Inputs from [1, Table 2]; changes computed. Figure 1 visualizes the consolidated pattern.
 
@@ -87,11 +87,11 @@ At the 20% reference, consolidated capacity is RM506.6m with unchanged RWA, RM36
 
 ## 5. Risk prioritization under uncertain ordinal inputs
 
-The source framework multiplies impact \(I\) and likelihood grade \(P\), each from 1 to 5. Its thresholds are retained as project conventions: Low 1�C4, Medium 5�C9, High 10�C25. These exact cutoffs are not attributed to ISO 31000 or COSO. The official ISO overview describes a principles-and-process framework [3]; it does not substantiate the source's claim that these numerical cutoffs are mandated.
+The source framework multiplies impact \(I\) and likelihood grade \(P\), each from 1 to 5. Its thresholds are retained as project conventions: Low 1–4, Medium 5–9, High 10–25. These exact cutoffs are not attributed to ISO 31000 or COSO. The official ISO overview describes a principles-and-process framework [3]; it does not substantiate the source's claim that these numerical cutoffs are mandated.
 
 Multiplication of ordinal labels is a prioritization heuristic. A score of 20 is not a monetary expected loss, twice a score of 10 need not mean twice the risk, and a frequency count is not interchangeable with a probability without an exposure horizon and statistical model. No undocumented distribution has been fitted to internal incidents.
 
-For each supplied pair, the analysis enumerates every valid pair within one grade of both inputs. Market risk remains High over its local score range of 12�C25. Compliance spans 9�C25, and credit spans 6�C20, crossing the High/Medium boundary. Technology and several other categories cross all three classes. These are deterministic perturbation ranges, not sampling confidence intervals.
+For each supplied pair, the analysis enumerates every valid pair within one grade of both inputs. Market risk remains High over its local score range of 12–25. Compliance spans 9–25, and credit spans 6–20, crossing the High/Medium boundary. Technology and several other categories cross all three classes. These are deterministic perturbation ranges, not sampling confidence intervals.
 
 ![Figure 3. Ordinal sensitivity](../../results/figures/risk-sensitivity.svg)
 
@@ -109,13 +109,13 @@ EL=\sum_j EAD_j\,PD_j\,LGD_j.
 
 Using gross exposures as an explicit EAD assumption produces RM9.025m; using net exposures instead produces RM8.017m. The latter is a sensitivity, not a validated collateral treatment. PD and LGD remain source assumptions. This is not a complete MFRS 9 ECL implementation: it omits staging, lifetime term structures, scenario weights, discounting, forward-looking calibration, recoveries, and off-balance-sheet conversion.
 
-The extended grid scales PD by 0.5, 1.0, 1.5, and 2.0 and shifts LGD by ?10, 0, and +10 percentage points, bounding both to [0,1]. Gross-basis results span RM3.416m�CRM22.438m. This range reveals parameter dependence, not an empirical uncertainty interval. It cannot be combined with the verified capital analysis as if it were a measured loss forecast for AHIBB.
+The extended grid scales PD by 0.5, 1.0, 1.5, and 2.0 and shifts LGD by −10, 0, and +10 percentage points, bounding both to [0,1]. Gross-basis results span RM3.416m–RM22.438m. This range reveals parameter dependence, not an empirical uncertainty interval. It cannot be combined with the verified capital analysis as if it were a measured loss forecast for AHIBB.
 
 ## 7. Transformation design and implementation discipline
 
 The source proposes RM26.5m across six workstreams: market RM3.5m; compliance RM5.5m; credit RM4.2m; technology RM8.5m; operational RM2.8m; liquidity RM2.0m. Technology accounts for 32.08%. These allocations are retained as a design input, not described as optimized, scientifically calibrated, approved, or spent. Software licensing and hires cannot all be assumed to qualify as accounting capital expenditure.
 
-The source's strategic themes��digital workflow improvement, reporting automation, credit controls, transition-finance origination, and cross-border advisory��become testable work packages:
+The source's strategic themes—digital workflow improvement, reporting automation, credit controls, transition-finance origination, and cross-border advisory—become testable work packages:
 
 | Work package | Required evidence before approval | Evaluation and release gate |
 |---|---|---|

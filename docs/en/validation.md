@@ -1,6 +1,6 @@
 # Validation record
 
-[����](../zh-CN/validation.md)
+[中文](../zh-CN/validation.md)
 
 Validation performed on 5 November 2026 using the bundled Python 3.12 runtime.
 

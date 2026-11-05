@@ -1,8 +1,8 @@
 # Capital Resilience and Risk Transformation at Affin Hwang Investment Bank
 
-[����](README.zh-CN.md)
+[中文](README.zh-CN.md)
 
-A research report on the relationship between regulatory capital strength, changes in risk composition, and the design of operational transformation. The study combines verified FY2024�CFY2025 disclosures with a separately identified scenario framework for risk prioritization and credit sensitivity.
+A research report on the relationship between regulatory capital strength, changes in risk composition, and the design of operational transformation. The study combines verified FY2024–FY2025 disclosures with a separately identified scenario framework for risk prioritization and credit sensitivity.
 
 **Central finding:** the improvement in the consolidated CET1 ratio is predominantly associated with a smaller RWA denominator. Credit RWA increased even as total RWA declined. Capital adequacy therefore supports a narrower conclusion than a claim of comprehensive risk reduction.
 
@@ -14,8 +14,8 @@ A research report on the relationship between regulatory capital strength, chang
 |---|---|---|
 | Consolidated CET1 ratio | 35.273% in 2024 to 37.573% in 2025 | Public disclosure |
 | Symmetric ratio decomposition | +0.108 percentage points from capital and +2.193 from RWA | Computed from disclosed amounts |
-| Consolidated risk composition | Total RWA ?5.84%; credit RWA +13.10% | Computed from public disclosure |
-| Standalone comparison | CET1 improvement +0.872 percentage points; total RWA ?1.96% | Computed from disclosed amounts |
+| Consolidated risk composition | Total RWA −5.84%; credit RWA +13.10% | Computed from public disclosure |
+| Standalone comparison | CET1 improvement +0.872 percentage points; total RWA −1.96% | Computed from disclosed amounts |
 | Reverse stress at a 20% analytical reference | Consolidated loss capacity falls from RM506.6m to RM218.3m when RWA rises by 50% | Conditional scenario, not a forecast |
 | Credit sensitivity | RM9.025m gross-basis expected loss; RM8.017m net-basis sensitivity | Illustrative source inputs, not a bank provision |
 

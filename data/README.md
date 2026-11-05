@@ -1,6 +1,6 @@
 # Data dictionary and provenance
 
-[����](README.zh-CN.md)
+[中文](README.zh-CN.md)
 
 All CSV files are UTF-8 with a header. No customer, employee, account-level, or confidential bank data are supplied. Each observation carries an evidence status and source locator. `SOURCE-REPORT` refers to the locally retained 38-page group report; its pages are one-based PDF pages. `P3-2025` refers to the public disclosure linked in [references](../docs/en/references.md); PDF page 9 is printed page 8.
 
