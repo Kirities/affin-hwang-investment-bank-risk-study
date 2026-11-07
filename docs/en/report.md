@@ -1,6 +1,8 @@
-# Capital Resilience and Risk Transformation at Affin Hwang Investment Bank
+# Disclosure-Based Capital Adequacy Analysis
 
 [中文](../zh-CN/report.md) · [Project overview](../../README.md)
+
+Capital-ratio decomposition and reverse stress testing of Affin Hwang Investment Bank (2024–2025).
 
 ## Abstract
 

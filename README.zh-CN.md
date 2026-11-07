@@ -1,6 +1,8 @@
-# Affin Hwang Investment Bank 的资本韧性与风险转型
+# 基于监管披露的资本充足性分析
 
 [English](README.md)
+
+Affin Hwang Investment Bank 的资本比率分解与反向压力测试（2024—2025）。
 
 本研究讨论监管资本实力、风险结构变化与运营转型设计之间的关系，将经核实的 2024—2025 年公开披露与单独标识的风险排序、信用敏感性情景相结合。
 
